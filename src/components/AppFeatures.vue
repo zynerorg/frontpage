@@ -11,7 +11,7 @@
         <v-list-item variant="text">
           <v-list-item-title>
             <v-avatar class="mb-2 bg-primary" :icon="item.icon" />
-            <p class="text-body-2 font-weight-bold text-truncate pb-1">
+            <p class="text-body-medium font-weight-bold text-truncate pb-1">
               {{ item.title }}
             </p>
           </v-list-item-title>

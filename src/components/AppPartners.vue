@@ -9,7 +9,7 @@
             </v-avatar>
           </template>
           <template #title>
-            <span class="text-body-1 font-weight-bold text-truncate">
+            <span class="text-body-large font-weight-bold text-truncate">
               {{ partner.title }}
             </span>
           </template>

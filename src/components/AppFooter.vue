@@ -6,7 +6,7 @@
         cols="12"
         sm="6"
       >
-        <p class="text-caption">
+        <p class="text-body-small">
           © {{ new Date().getFullYear() }} Zyner. All rights reserved.
         </p>
       </v-col>

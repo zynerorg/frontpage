@@ -11,11 +11,11 @@
           >
             <template #append></template>
           </v-chip>
-          <p class="text-h4 text-md-h3 font-weight-bold mb-6">
+          <p class="text-headline-large text-md-h3 font-weight-bold mb-6">
             Digital labbmiljö till ett fast medlemspris
           </p>
 
-          <p class="text-body-1 text-medium-emphasis mb-10">
+          <p class="text-body-large text-medium-emphasis mb-10">
             Vi drivs utan vinstintresse och levererar trygga och hållbara
             lösningar för ideella föreningar och privatpersoner.
           </p>

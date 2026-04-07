@@ -1,12 +1,12 @@
 <template>
   <v-container>
     <v-responsive class="text-center mx-auto" max-width="600">
-      <p v-if="caption" class="mt-8 text-overline">{{ caption }}</p>
+      <p v-if="caption" class="mt-8 text-label-medium text-uppercase">{{ caption }}</p>
 
-      <p v-if="title" class="font-weight-bold text-h4">{{ title }}</p>
+      <p v-if="title" class="font-weight-bold text-headline-large">{{ title }}</p>
       <p
         v-if="subtitle"
-        class="mt-2 text-subtitle-1 text-medium-emphasis hidden-sm-and-down"
+        class="mt-2 text-body-large text-medium-emphasis hidden-sm-and-down"
       >
         {{ subtitle }}
       </p>
