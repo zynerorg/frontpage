@@ -1,9 +1,11 @@
 FROM node:24-alpine AS build-stage
 WORKDIR /app
-COPY package*.json ./
-RUN npm ci --legacy-peer-deps
+COPY package.json pnpm-lock.yaml ./
+RUN corepack enable && \
+    corepack install
+RUN pnpm install --frozen-lockfile
 COPY ./ .
-RUN npm run build
+RUN pnpm run build
 
 FROM nginx:1.29-alpine AS production-stage
 RUN mkdir /app
