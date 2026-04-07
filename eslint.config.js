@@ -13,5 +13,13 @@ export default [
       "prettier/prettier": "error",
     },
   },
+
+  {
+    rules: {
+      "vuetify/no-deprecated-components": "error",
+      "vuetify/no-deprecated-props": "error",
+    },
+  },
+
   eslintConfigPrettierFlat,
 ];
