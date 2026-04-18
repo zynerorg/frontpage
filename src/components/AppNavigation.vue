@@ -54,6 +54,7 @@ import {
   mdiHome,
   mdiWeatherNight,
   mdiWeatherSunny,
+  mdiAccountPlus,
 } from "@mdi/js";
 import { shallowRef } from "vue";
 import { useTheme } from "vuetify";
@@ -68,6 +69,11 @@ const items = [
     href: "https://go.zyner.org/stadgar",
     title: "Stadgar",
     icon: mdiFileDocument,
+  },
+  {
+    href: "https://go.zyner.org/blimedlem",
+    title: "Bli medlem!",
+    icon: mdiAccountPlus,
   },
   // { to: "/about", title: "Om oss", icon: mdiInformation },
 ];
