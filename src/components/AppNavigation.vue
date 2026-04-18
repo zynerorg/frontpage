@@ -70,11 +70,6 @@ const items = [
     title: "Stadgar",
     icon: mdiFileDocument,
   },
-  {
-    href: "https://go.zyner.org/blimedlem",
-    title: "Bli medlem!",
-    icon: mdiAccountPlus,
-  },
   // { to: "/about", title: "Om oss", icon: mdiInformation },
 ];
 </script>

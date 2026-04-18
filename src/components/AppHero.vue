@@ -24,20 +24,19 @@
             <v-btn
               class="text-none"
               color="primary"
-              href="https://go.zyner.org/discord"
-              prepend-icon="fa:fab fa-discord"
+              href="https://go.zyner.org/blimedlem"
+              :prepend-icon="mdiAccountPlus"
               target="_blank"
-              text="Gå med i vår server"
+              text="Bli medlem!"
               variant="flat"
             >
             </v-btn>
 
             <v-btn
-              v-tooltip="'Email'"
-              :append-icon="mdiChevronRight"
+              :append-icon="fa:fab fa-discord"
               class="text-none"
-              href="mailto:support@zyner.org"
-              text="Kontakta oss"
+              href="https://go.zyner.org/discord"
+              text="Gå med i vår server"
               variant="tonal"
             >
               <template #prepend></template>
@@ -59,5 +58,5 @@
 </template>
 
 <script setup lang="ts">
-import { mdiChevronRight, mdiDomain } from "@mdi/js";
+import { mdiChevronRight, mdiDomain, mdiAccountPlus } from "@mdi/js";
 </script>
