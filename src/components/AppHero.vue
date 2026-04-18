@@ -33,7 +33,7 @@
             </v-btn>
 
             <v-btn
-              :append-icon="fa:fab fa-discord"
+              append-icon="fa:fab fa-discord"
               class="text-none"
               href="https://go.zyner.org/discord"
               text="Gå med i vår server"
