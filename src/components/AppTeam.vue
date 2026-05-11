@@ -8,6 +8,7 @@
             class="bg-surface-variant"
             cover
             :src="getAvatarSrc(member.avatar)"
+            :alt="member.name"
           />
 
           <v-card-title>
