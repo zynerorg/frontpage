@@ -1,7 +1,6 @@
 import { fileURLToPath, URL } from "node:url";
 import Vue from "@vitejs/plugin-vue";
 import AutoImport from "unplugin-auto-import/vite";
-import Fonts from "unplugin-fonts/vite";
 import Components from "unplugin-vue-components/vite";
 import { defineConfig } from "vite";
 import Layouts from "vite-plugin-vue-layouts-next";
@@ -25,16 +24,6 @@ export default defineConfig({
       },
     }),
     Components(),
-    Fonts({
-      google: {
-        families: [
-          {
-            name: "Roboto",
-            styles: "wght@100;300;400;500;700;900",
-          },
-        ],
-      },
-    }),
     AutoImport({
       imports: [
         "vue",
