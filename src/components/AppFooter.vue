@@ -10,6 +10,7 @@
           © {{ new Date().getFullYear() }} Zyner. All rights reserved.
         </p>
       </v-col>
+
       <v-col class="d-flex justify-center justify-md-end" cols="12" sm="6">
         <v-btn
           v-for="(social, i) in socials"
@@ -25,7 +26,7 @@
   </v-footer>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import {
   mdiDocker,
   mdiEmail,

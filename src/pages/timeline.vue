@@ -20,7 +20,7 @@
   </v-container>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { mdiDomain, mdiFileSign, mdiPhone } from "@mdi/js";
 import { useDate } from "vuetify";
 

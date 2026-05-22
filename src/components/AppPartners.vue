@@ -8,6 +8,7 @@
               <v-img :alt="`${partner.title} logo`" :src="partner.icon" />
             </v-avatar>
           </template>
+
           <template #title>
             <span class="text-body-large font-weight-bold text-truncate">
               {{ partner.title }}

@@ -11,6 +11,7 @@
           >
             <template #append></template>
           </v-chip>
+
           <p class="text-headline-large text-md-h3 font-weight-bold mb-6">
             Digital labbmiljö till ett fast medlemspris
           </p>
@@ -44,6 +45,7 @@
           </div>
         </v-responsive>
       </v-col>
+
       <v-col class="hidden-sm-and-down pa-0" md="6" rols="12">
         <v-responsive>
           <v-img
@@ -58,5 +60,5 @@
 </template>
 
 <script setup lang="ts">
-import { mdiChevronRight, mdiDomain, mdiAccountPlus } from "@mdi/js";
+import { mdiAccountPlus, mdiDomain } from "@mdi/js";
 </script>

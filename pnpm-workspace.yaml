@@ -1,9 +1,9 @@
 allowBuilds:
-  '3': true
+  "3": true
   '"': true
-  '@parcel/watcher': true
-  '[': true
-  ']': true
+  "@parcel/watcher": true
+  "[": true
+  "]": true
   e: true
   i: true
   l: true
