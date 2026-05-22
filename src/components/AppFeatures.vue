@@ -11,10 +11,12 @@
         <v-list-item variant="text">
           <v-list-item-title>
             <v-avatar class="mb-2 bg-primary" :icon="item.icon" />
+
             <p class="text-body-medium font-weight-bold text-truncate pb-1">
               {{ item.title }}
             </p>
           </v-list-item-title>
+
           <v-divider
             class="mx-auto mt-1 mb-4"
             inset
@@ -22,6 +24,7 @@
             opacity="1"
             thickness="4"
           ></v-divider>
+
           <v-list-item-subtitle>
             {{ item.subtitle }}
           </v-list-item-subtitle>
@@ -31,7 +34,7 @@
   </v-container>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import {
   mdiConsole,
   mdiDomain,

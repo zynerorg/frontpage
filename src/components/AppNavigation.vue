@@ -13,11 +13,12 @@
     </v-list>
   </v-navigation-drawer>
 
-  <v-app-bar absolute app class="px-md-4">
+  <v-app-bar absolute class="px-md-4">
     <v-app-bar-nav-icon
       v-if="$vuetify.display.smAndDown"
       @click="drawer = !drawer"
     />
+
     <v-img
       alt="Zyner logo"
       class="me-sm-8"
@@ -47,14 +48,13 @@
   </v-app-bar>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import {
   mdiFileDocument,
   mdiFormatListText,
   mdiHome,
   mdiWeatherNight,
   mdiWeatherSunny,
-  mdiAccountPlus,
 } from "@mdi/js";
 import { shallowRef } from "vue";
 import { useTheme } from "vuetify";

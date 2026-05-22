@@ -1,9 +1,14 @@
 <template>
   <v-container>
     <v-responsive class="text-center mx-auto" max-width="600">
-      <p v-if="caption" class="mt-8 text-label-medium text-uppercase">{{ caption }}</p>
+      <p v-if="caption" class="mt-8 text-label-medium text-uppercase">
+        {{ caption }}
+      </p>
 
-      <p v-if="title" class="font-weight-bold text-headline-large">{{ title }}</p>
+      <p v-if="title" class="font-weight-bold text-headline-large">
+        {{ title }}
+      </p>
+
       <p
         v-if="subtitle"
         class="mt-2 text-body-large text-medium-emphasis hidden-sm-and-down"
@@ -14,7 +19,7 @@
   </v-container>
 </template>
 
-<script setup>
+<script setup lang="ts">
 defineProps({
   caption: String,
   title: String,

@@ -33,7 +33,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-import { getWebConfig, type User, type WebConfig } from "@/config";
+import { getWebConfig, type WebConfig } from "@/config";
 
 const defaultConfig: WebConfig = {
   partners: [],
