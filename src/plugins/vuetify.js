@@ -1,6 +1,8 @@
 import { createVuetify } from "vuetify";
 import { fa } from "vuetify/iconsets/fa";
 import { aliases, mdi } from "vuetify/iconsets/mdi-svg";
+import "@fontsource/roboto/latin.css";
+import "@fontsource/roboto/latin-ext.css";
 import "vuetify/styles";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "@mdi/font/css/materialdesignicons.css";
