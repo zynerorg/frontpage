@@ -16,5 +16,32 @@
     "event2": "We submit an application for an organization number to the Tax Authority (SKV8400)",
     "event3": "We have received our organization number from the Tax Authority",
     "event4": "The association has acquired a phone number"
+  },
+  
+  "features": {
+    "f1": {
+      "title": "Operating our own environment",
+      "subtitle": "We operate our own infrastructure, but without guarantee - everything happens on a best effort basis."
+    },
+    "f2": {
+      "title": "Non-profit association",
+      "subtitle": "We are a non-profit association, run by enthusiasts and without profit interest."
+    },
+    "f3": {
+      "title": "Open source",
+      "subtitle": "We promote open source and free software usage."
+    },
+    "f4": {
+      "title": "System monitoring",
+      "subtitle": "We monitor our systems, but offer no uptime guarantees."
+    },
+    "f5": {
+      "title": "Realize your IT hobby",
+      "subtitle": "Get access to resources at a low cost."
+    },
+    "f6": {
+      "title": "Management via terminal",
+      "subtitle": "We manage our environment primarily through the terminal."
+    }
   }
 }
