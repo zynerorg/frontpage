@@ -41,12 +41,12 @@
 
     <v-spacer />
 
-    <v-btn />
-
     <v-btn
       :icon="theme.current.value.dark ? mdiWeatherSunny : mdiWeatherNight"
       @click="theme.change(theme.current.value.dark ? 'light' : 'dark')"
     />
+
+    <theme-button />
   </v-app-bar>
 </template>
 
@@ -60,6 +60,7 @@ import {
 } from "@mdi/js";
 import { shallowRef } from "vue";
 import { useTheme } from "vuetify";
+import ThemeButton from "./ThemeButton.vue";
 
 const theme = useTheme();
 const drawer = shallowRef(false);
