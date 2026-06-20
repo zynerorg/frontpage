@@ -10,5 +10,11 @@
   "team": {
     "caption": "Our team",
     "title": "Meet the Zyner team"
+  },
+  "timeline": {
+    "event1": "We establish the Zyner association",
+    "event2": "We submit an application for an organization number to the Tax Authority (SKV8400)",
+    "event3": "We have received our organization number from the Tax Authority",
+    "event4": "The association has acquired a phone number"
   }
 }
