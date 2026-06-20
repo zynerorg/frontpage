@@ -1,3 +1,15 @@
 {
-  "hello": "hej"
+  "hello": "hej",
+  "partners": {
+    "caption": "Våra partners",
+    "title": "Tack till våra partners"
+  },
+  "goals": {
+    "caption": "Vårt mål",
+    "title": "Viktiga mål för oss"
+  },
+  "team": {
+    "caption": "Vårt team",
+    "title": "Möt Zyner-teamet"
+  }
 }

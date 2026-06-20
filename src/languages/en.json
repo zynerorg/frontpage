@@ -1,3 +1,14 @@
 {
-  "hello": "hello"
+  "partners": {
+    "caption": "Our partners",
+    "title": "Thank you to our partners"
+  },
+  "goals": {
+    "caption": "Our goal",
+    "title": "Important goals for us"
+  },
+  "team": {
+    "caption": "Our team",
+    "title": "Meet the Zyner team"
+  }
 }
