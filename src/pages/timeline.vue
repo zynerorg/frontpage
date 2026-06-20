@@ -22,18 +22,18 @@
 
 <script setup lang="ts">
 import { mdiDomain, mdiFileSign, mdiPhone } from "@mdi/js";
+import { useI18n } from "vue-i18n";
 import { useDate } from "vuetify";
-import { useI18n } from "vue-i18n"; 
 
 const date = useDate();
-const { t } = useI18n(); 
+const { t } = useI18n();
 
 const items = [
   {
     date: new Date("2025-02-08T17:55"),
     icon: mdiDomain,
     color: "green",
-    text: t("timeline.event1"), 
+    text: t("timeline.event1"),
   },
   {
     date: new Date("2025-02-17"),

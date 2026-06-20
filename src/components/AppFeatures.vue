@@ -43,39 +43,41 @@ import {
   mdiLaptop,
   mdiServer,
 } from "@mdi/js";
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
 
-const features = [
+const { t } = useI18n();
+
+const features = computed(() => [
   {
-    title: "Driftar egen miljö",
-    subtitle:
-      "Vi driver vår egen infrastruktur, men utan garanti – allt sker på best effort-basis.",
+    title: t("features.f1.title"),
+    subtitle: t("features.f1.subtitle"),
     icon: mdiServer,
   },
   {
-    title: "Ideell förening",
-    subtitle:
-      "Vi är en ideell förening, driven av entusiaster och utan vinstintresse.",
+    title: t("features.f2.title"),
+    subtitle: t("features.f2.subtitle"),
     icon: mdiDomain,
   },
   {
-    title: "Öppen källkod",
-    subtitle: "Vi främjar öppen källkod och fri mjukvaruanvändning.",
+    title: t("features.f3.title"),
+    subtitle: t("features.f3.subtitle"),
     icon: mdiFileCode,
   },
   {
-    title: "Systemövervakning",
-    subtitle: "Vi övervakar våra system, men erbjuder inga driftsgarantier.",
+    title: t("features.f4.title"),
+    subtitle: t("features.f4.subtitle"),
     icon: mdiHeartPulse,
   },
   {
-    title: "Förverkliga din IT-hobby",
-    subtitle: "Få tillgång till resurser till låg kostnad.",
+    title: t("features.f5.title"),
+    subtitle: t("features.f5.subtitle"),
     icon: mdiLaptop,
   },
   {
-    title: "Hantering via terminal",
-    subtitle: "Vi hanterar vår miljö primärt via terminalen.",
+    title: t("features.f6.title"),
+    subtitle: t("features.f6.subtitle"),
     icon: mdiConsole,
   },
-];
+]);
 </script>

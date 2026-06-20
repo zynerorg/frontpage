@@ -46,7 +46,7 @@
       @click="theme.change(theme.current.value.dark ? 'light' : 'dark')"
     />
 
-    <theme-button />
+    <LanguageSelector />
   </v-app-bar>
 </template>
 
@@ -58,21 +58,23 @@ import {
   mdiWeatherNight,
   mdiWeatherSunny,
 } from "@mdi/js";
-import { shallowRef } from "vue";
+import { computed, shallowRef } from "vue";
+import { useI18n } from "vue-i18n";
 import { useTheme } from "vuetify";
-import ThemeButton from "./ThemeButton.vue";
+
+const { t } = useI18n();
 
 const theme = useTheme();
 const drawer = shallowRef(false);
 
-const items = [
-  { to: "/", title: "Startsida", icon: mdiHome },
-  { to: "/timeline", title: "Tidslinje", icon: mdiFormatListText },
+const items = computed(() => [
+  { to: "/", title: t("nav.home"), icon: mdiHome },
+  { to: "/timeline", title: t("nav.timeline"), icon: mdiFormatListText },
   {
     href: "https://go.zyner.org/stadgar",
-    title: "Stadgar",
+    title: t("nav.about"),
     icon: mdiFileDocument,
   },
   // { to: "/about", title: "Om oss", icon: mdiInformation },
-];
+]);
 </script>
