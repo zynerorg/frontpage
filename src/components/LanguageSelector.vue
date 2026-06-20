@@ -2,10 +2,10 @@
   <div class="ml-4">
     <v-select
       v-model="locale"
-      :items="availableLocales"
       density="compact"
-      variant="outlined"
       hide-details
+      :items="availableLocales"
+      variant="outlined"
     />
   </div>
 </template>
@@ -16,7 +16,7 @@ import { useI18n } from "vue-i18n";
 
 const { locale, availableLocales } = useI18n();
 
-const STORAGE_KEY = "app-locale";
+const STORAGE_KEY = "zyner.org";
 
 onMounted(() => {
   const saved = localStorage.getItem(STORAGE_KEY);
