@@ -1,8 +1,8 @@
 <template>
   <v-system-bar class="justify-center">
-    <strong>Zyner 2025</strong> — vi är under rekonstruktion!
+    <strong>Zyner 2025</strong> — {{ $t('systembar.reconstruction') }}
     {{
-      !$vuetify.display.mobile ? "Vi har inte öppnat officiellt ännu!" : null
+      !$vuetify.display.mobile ? $t('systembar.not_opened') : null
     }}
   </v-system-bar>
 </template>

@@ -1,8 +1,6 @@
 <template>
   <AppHero />
 
-  {{ $t("hello") }}
-
   <AppSection :caption="$t('partners.caption')" :title="$t('partners.title')" />
   <AppPartners :partners="conf.partners" />
 

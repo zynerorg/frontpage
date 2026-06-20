@@ -23,33 +23,35 @@
 <script setup lang="ts">
 import { mdiDomain, mdiFileSign, mdiPhone } from "@mdi/js";
 import { useDate } from "vuetify";
+import { useI18n } from "vue-i18n"; 
 
 const date = useDate();
+const { t } = useI18n(); 
 
 const items = [
   {
     date: new Date("2025-02-08T17:55"),
     icon: mdiDomain,
     color: "green",
-    text: "Vi grundar föreningen Zyner",
+    text: t("timeline.event1"), 
   },
   {
     date: new Date("2025-02-17"),
     icon: mdiFileSign,
     color: "indigo",
-    text: "Vi skickar in ansökan om organisationsnummer till Skatteverket (SKV8400)",
+    text: t("timeline.event2"),
   },
   {
     date: new Date("2025-03-18"),
     icon: mdiFileSign,
     color: "green",
-    text: "Vi har fått vårat organisationsnummer från Skatteverket",
+    text: t("timeline.event3"),
   },
   {
     date: new Date("2025-07-01"),
     icon: mdiPhone,
     color: "blue",
-    text: "Föreningen har införskaffat ett telefonnummer",
+    text: t("timeline.event4"),
   },
 ];
 
