@@ -43,5 +43,28 @@
       "title": "Management via terminal",
       "subtitle": "We manage our environment primarily through the terminal."
     }
+    
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+
+  "hero": {
+    "badge": "Non-profit association",
+    "title": "Digital lab environment at a fixed membership price",
+    "subtitle": "We are run on a non-profit basis, delivering secure and sustainable solutions for non-profit associations and individuals.",
+    "btn_join": "Join us!",
+    "btn_discord": "Join our server"
+  },
+
+  "nav": {
+    "home": "Home",
+    "timeline": "Timeline",
+    "about": "About Us"
+  },
+
+  "systembar": {
+    "reconstruction": "- we are under reconstruction!",
+    "not_opened": "We have not officially opened yet!"
   }
 }
