@@ -1,3 +1,20 @@
 {
-  "hello": "hej"
+  "partners": {
+    "caption": "Våra partners",
+    "title": "Tack till våra partners"
+  },
+  "goals": {
+    "caption": "Vårt mål",
+    "title": "Viktiga mål för oss"
+  },
+  "team": {
+    "caption": "Vårt team",
+    "title": "Möt Zyner-teamet"
+  },
+  "timeline": {
+    "event1": "Vi grundar föreningen Zyner",
+    "event2": "Vi skickar in ansökan om organisationsnummer till Skatteverket (SKV8400)",
+    "event3": "Vi har fått vårat organisationsnummer från Skatteverket",
+    "event4": "Föreningen har införskaffat ett telefonnummer"
+  }
 }
