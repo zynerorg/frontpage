@@ -7,6 +7,9 @@ import "vuetify/styles";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "@mdi/font/css/materialdesignicons.css";
 
+// Translations
+import { sv, en } from "vuetify/locale";
+
 export default createVuetify({
   theme: {
     defaultTheme: "system",
