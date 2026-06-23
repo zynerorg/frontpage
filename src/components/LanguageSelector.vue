@@ -1,5 +1,5 @@
 <template>
-  <div class="ml-4">
+  <div class="ml-4 mr-4 mr-sm-0">
     <v-select
       v-model="locale"
       density="compact"
