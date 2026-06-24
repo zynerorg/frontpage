@@ -1,10 +1,10 @@
 <template>
   <AppHero />
 
-  <AppSection caption="Våra partners" title="Tack till våra partners" />
+  <AppSection :caption="$t('partners.caption')" :title="$t('partners.title')" />
   <AppPartners :partners="conf.partners" />
 
-  <AppSection caption="Vårt mål" title="Viktiga mål för oss" />
+  <AppSection :caption="$t('goals.caption')" :title="$t('goals.title')" />
   <AppFeatures />
 
   <!-- <AppSection
@@ -13,7 +13,7 @@
   />
   <AppPricing /> -->
 
-  <AppSection caption="Vårt team" title="Möt Zyner-teamet" />
+  <AppSection :caption="$t('team.caption')" :title="$t('team.title')" />
   <AppTeam :members="conf.users" :roles="conf.roles" />
 
   <!-- <div v-for="team in conf.teams" :key="team.id">

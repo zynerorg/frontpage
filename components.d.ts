@@ -19,6 +19,7 @@ declare module 'vue' {
     AppSection: typeof import('./src/components/AppSection.vue')['default']
     AppSystemBar: typeof import('./src/components/AppSystemBar.vue')['default']
     AppTeam: typeof import('./src/components/AppTeam.vue')['default']
+    LanguageSelector: typeof import('./src/components/LanguageSelector.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

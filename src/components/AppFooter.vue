@@ -7,7 +7,7 @@
         sm="6"
       >
         <p class="text-body-small">
-          © {{ new Date().getFullYear() }} Zyner. All rights reserved.
+          © {{ new Date().getFullYear() }} Zyner. {{ $t("footer.rights") }}
         </p>
       </v-col>
 

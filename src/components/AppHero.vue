@@ -7,18 +7,17 @@
             color="primary"
             :prepend-icon="mdiDomain"
             size="small"
-            text="Ideell förening"
+            :text="$t('hero.badge')"
           >
             <template #append></template>
           </v-chip>
 
           <p class="text-headline-large text-md-h3 font-weight-bold mb-6">
-            Digital labbmiljö till ett fast medlemspris
+            {{ $t('hero.title') }}
           </p>
 
           <p class="text-body-large text-medium-emphasis mb-10">
-            Vi drivs utan vinstintresse och levererar trygga och hållbara
-            lösningar för ideella föreningar och privatpersoner.
+            {{ $t('hero.subtitle') }}
           </p>
 
           <div class="d-flex ga-4 align-center justify-start flex-wrap">
@@ -28,7 +27,7 @@
               href="https://go.zyner.org/blimedlem"
               :prepend-icon="mdiAccountPlus"
               target="_blank"
-              text="Bli medlem!"
+              :text="$t('hero.btn_join')"
               variant="flat"
             >
             </v-btn>
@@ -37,7 +36,7 @@
               append-icon="fa:fab fa-discord"
               class="text-none"
               href="https://go.zyner.org/discord"
-              text="Gå med i vår server"
+              :text="$t('hero.btn_discord')"
               variant="tonal"
             >
               <template #prepend></template>
@@ -58,7 +57,3 @@
     </v-row>
   </v-container>
 </template>
-
-<script setup lang="ts">
-import { mdiAccountPlus, mdiDomain } from "@mdi/js";
-</script>
