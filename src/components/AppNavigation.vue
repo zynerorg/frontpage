@@ -41,12 +41,12 @@
 
     <v-spacer />
 
+    <LanguageSelector />
+
     <v-btn
       :icon="theme.current.value.dark ? mdiWeatherSunny : mdiWeatherNight"
       @click="theme.change(theme.current.value.dark ? 'light' : 'dark')"
     />
-
-    <LanguageSelector />
   </v-app-bar>
 </template>
 
