@@ -29,7 +29,7 @@ importers:
     devDependencies:
       '@fortawesome/fontawesome-free':
         specifier: ^7.2.0
-        version: 7.2.0
+        version: 7.3.0
       '@mdi/js':
         specifier: ^7.4.47
         version: 7.4.47
@@ -207,8 +207,8 @@ packages:
   '@fontsource/roboto@5.2.10':
     resolution: {integrity: sha512-8HlA5FtSfz//oFSr2eL7GFXAiE7eIkcGOtx7tjsLKq+as702x9+GU7K95iDeWFapHC4M2hv9RrpXKRTGGBI8Zg==}
 
-  '@fortawesome/fontawesome-free@7.2.0':
-    resolution: {integrity: sha512-3DguDv/oUE+7vjMeTSOjCSG+KeawgVQOHrKRnvUuqYh1mfArrh7s+s8hXW3e4RerBA1+Wh+hBqf8sJNpqNrBWg==}
+  '@fortawesome/fontawesome-free@7.3.0':
+    resolution: {integrity: sha512-Yw4Qa43P6e4Xwh0TwEUkHQNRJInWaqIBo73VJmns3j2AIlZPAvUcR4yGIxCPqPRCgyJ5KIVIalF/I1GxhZ/Kgw==}
     engines: {node: '>=6'}
 
   '@humanfs/core@0.19.2':
@@ -2012,7 +2012,7 @@ snapshots:
 
   '@fontsource/roboto@5.2.10': {}
 
-  '@fortawesome/fontawesome-free@7.2.0': {}
+  '@fortawesome/fontawesome-free@7.3.0': {}
 
   '@humanfs/core@0.19.2':
     dependencies:
