@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.title {
+    writing-mode: sideways-lr;
+    text-orientation: sideways;
+    font: 20px var(--font-mono);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.colors {
+    display: grid;
+    list-style: none;
+    gap: 8px;
+}
+
+.swatch {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+    width: 100%;
+}
+
+.swatch > h2 {
+    font: 16px var(--font-mono);
+}
+
+.swatch > h3 {
+    font: 10px var(--font-mono);
+}
+
+.swatch > div {
+    aspect-ratio: 1;
+    width: 64px;
+    border-radius: 8px;
+}

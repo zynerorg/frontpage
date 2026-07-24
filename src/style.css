@@ -4,6 +4,18 @@
     --font-dotted: "Doto", system-ui, sans-serif;
     --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
 
+    --color-accent-50: #eefaff;
+    --color-accent-100: #daf3ff;
+    --color-accent-200: #bdeaff;
+    --color-accent-300: #8fdfff;
+    --color-accent-400: #5accff;
+    --color-accent-500: #34b1fd;
+    --color-accent-600: #2196f3;
+    --color-accent-700: #167cdf;
+    --color-accent-800: #1863b5;
+    --color-accent-900: #1a548e;
+    --color-accent-950: #153456;
+
     /* Color scheme support */
     color-scheme: light dark;
 
