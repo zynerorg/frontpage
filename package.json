@@ -20,8 +20,8 @@
     "@vue/tsconfig": "^0.9.1",
     "storybook": "^10.5.3",
     "storybook-vue-addon": "^0.7.1",
-    "typescript": "~7.0.2",
     "vite": "^8.1.5",
+    "typescript": "~6.0.3",
     "vue-tsc": "^3.3.8"
   }
 }
