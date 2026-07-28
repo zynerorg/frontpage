@@ -8,7 +8,10 @@
     "build": "nuxt build",
     "preview": "nuxt preview",
     "generate": "nuxt generate",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "story:dev": "histoire dev",
+    "story:build": "histoire build",
+    "story:preview": "histoire preview"
   },
   "dependencies": {
     "@nuxt/ui": "^4.10.0",
@@ -16,5 +19,9 @@
     "vue": "^3.5.40",
     "vue-router": "^5.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@histoire/plugin-vue": "^1.0.0-beta.1",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "histoire": "^1.0.0-beta.1"
+  }
 }
