@@ -10,13 +10,14 @@ activated by running `nix develop` in the project root or using a tool such as
 
 ### Commands
 
-| Command           | Description                                  |
-| ----------------- | -------------------------------------------- |
-| `npm run dev`     | Starts the development server                |
-| `npm run build`   | Builds the application for production        |
-| `npm run preview` | Previews the production build                |
-| `story:dev`       | Starts the storybook development server       |
-| `story:build`     | Builds the storybook stories for production   |
+| Command           | Description                                |
+| ----------------- | ------------------------------------------ |
+| `npm run dev`     | Starts the development server              |
+| `npm run build`   | Builds the application for production      |
+| `npm run preview` | Previews the production build              |
+| `story:dev`       | Starts the histoire development server     |
+| `story:build`     | Builds the histoire stories for production |
+| `story:preview`   | Previews the histoire production build     |
 
 ## License
 
