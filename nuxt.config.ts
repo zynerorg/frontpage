@@ -2,6 +2,6 @@
 export default defineNuxtConfig({
   compatibilityDate: "2026-07-24",
   devtools: { enabled: true },
-  modules: ["@nuxt/ui"],
+  modules: ["@nuxt/ui", "@nuxt/test-utils/module"],
   css: ["~/assets/css/main.css"],
 });

@@ -12,6 +12,10 @@
     "story:dev": "histoire dev",
     "story:build": "histoire build",
     "story:preview": "histoire preview",
+    "test": "vitest run",
+    "test:unit": "vitest run --project unit",
+    "test:e2e": "vitest run --project e2e",
+    "test:nuxt": "vitest run --project nuxt",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
     "fmt": "oxfmt",
@@ -26,9 +30,14 @@
   },
   "devDependencies": {
     "@histoire/plugin-vue": "^1.0.0-beta.1",
+    "@nuxt/test-utils": "^4.1.0",
     "@vitejs/plugin-vue": "^6.0.8",
+    "@vue/test-utils": "^2.4.11",
+    "happy-dom": "^20.11.1",
     "histoire": "^1.0.0-beta.1",
     "oxfmt": "^0.61.0",
-    "oxlint": "^1.76.0"
+    "oxlint": "^1.76.0",
+    "playwright-core": "^1.62.0",
+    "vitest": "^4.1.10"
   }
 }
