@@ -1,8 +1,8 @@
 {
   "name": "frontpage",
+  "version": "0.0.0",
   "private": true,
   "type": "module",
-  "version": "0.0.0",
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
@@ -11,17 +11,24 @@
     "postinstall": "nuxt prepare",
     "story:dev": "histoire dev",
     "story:build": "histoire build",
-    "story:preview": "histoire preview"
+    "story:preview": "histoire preview",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check .",
+    "check": "npm run lint && npm run fmt:check"
   },
   "dependencies": {
     "@nuxt/ui": "^4.10.0",
-    "nuxt": "^4.5.0",
+    "nuxt": "^4.5.1",
     "vue": "^3.5.40",
     "vue-router": "^5.2.0"
   },
   "devDependencies": {
     "@histoire/plugin-vue": "^1.0.0-beta.1",
     "@vitejs/plugin-vue": "^6.0.8",
-    "histoire": "^1.0.0-beta.1"
+    "histoire": "^1.0.0-beta.1",
+    "oxfmt": "^0.61.0",
+    "oxlint": "^1.76.0"
   }
 }
