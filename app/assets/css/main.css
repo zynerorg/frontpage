@@ -7,12 +7,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --ui-primary: var(--color-accent-600);
 }
 
 @theme {
   --font-sans: "DM Sans", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", monospace;
-  --font-special: "Doto", system-ui, sans-serif;
+  --font-decorative: "Doto", system-ui, sans-serif;
 
   --color-accent-50: #eefaff;
   --color-accent-100: #daf3ff;
